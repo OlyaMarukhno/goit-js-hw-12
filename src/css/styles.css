@@ -33,13 +33,13 @@ body {
   align-items: center;
 }
 
-.search-form {
+.form {
   margin-bottom: 24px;
   display: flex;
   gap: 8px;
 }
 
-.search-form input {
+.form input {
   padding: 8px 16px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -48,7 +48,7 @@ body {
   width: 250px;
 }
 
-.search-form button,
+.form button,
 .load-more-btn {
   padding: 8px 16px;
   font-size: 16px;
@@ -60,7 +60,7 @@ body {
   transition: background-color 250ms ease;
 }
 
-.search-form button:hover,
+.form button:hover,
 .load-more-btn:hover {
   background-color: #3b5edb;
 }
